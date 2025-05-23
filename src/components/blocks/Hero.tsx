@@ -55,7 +55,7 @@ const Hero: React.FC = () => {
     }
 
     return () => clearTimeout(timer)
-  }, [displayedAdjective, isDeleting, currentAdjectiveIndex, adjectives, typingSpeed, deletingSpeed, pauseDuration])
+  }, [displayedAdjective, isDeleting, currentAdjectiveIndex, typingSpeed, deletingSpeed, pauseDuration])
 
   return (
     <section id="hero" className="hero-gradient text-white relative overflow-hidden min-h-screen flex items-center justify-center">

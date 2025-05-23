@@ -219,7 +219,7 @@ const PainPoints: React.FC = () => {
               whileTap={{ scale: 0.95 }}
               aria-label="Contact us to solve these challenges"
             >
-              I'm Ready to Fix This
+              I&apos;m Ready to Fix This
             </motion.button>
             <motion.a
               href="#how-it-works"
