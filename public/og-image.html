@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            width: 1200px;
+            height: 630px;
+            background: linear-gradient(135deg, #0E0E10 0%, #1A1A1A 100%);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .bg-pattern {
+            position: absolute;
+            top: -20%;
+            left: -20%;
+            right: -20%;
+            bottom: -20%;
+            background: radial-gradient(circle at 30% 20%, rgba(34, 213, 161, 0.1) 0%, transparent 50%),
+                        radial-gradient(circle at 70% 80%, rgba(145, 149, 246, 0.1) 0%, transparent 50%);
+        }
+        
+        .content {
+            text-align: center;
+            z-index: 10;
+            max-width: 900px;
+            padding: 60px;
+        }
+        
+        .logo {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 40px;
+            filter: drop-shadow(0 10px 20px rgba(34, 213, 161, 0.3));
+        }
+        
+        .title {
+            font-size: 64px;
+            font-weight: 800;
+            color: white;
+            margin-bottom: 20px;
+            line-height: 1.1;
+        }
+        
+        .subtitle {
+            font-size: 32px;
+            color: #22D5A1;
+            font-weight: 600;
+            margin-bottom: 30px;
+        }
+        
+        .description {
+            font-size: 24px;
+            color: #B0B0B0;
+            line-height: 1.4;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        .accent {
+            color: #22D5A1;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-pattern"></div>
+    <div class="content">
+        <div class="logo">
+            <svg width="120" height="120" viewBox="0 0 1091 1091" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M616.648 0C636.211 0.000293763 652.224 15.9331 652.224 35.5774V132.565C691.148 142.65 727.857 158.128 761.518 178.127L833.879 105.761C847.772 91.8659 870.299 91.8659 884.195 105.761L985.226 206.8C999.111 220.685 999.049 243.279 985.226 257.112L912.861 329.477C932.861 363.141 948.344 399.848 958.423 438.772H1055.42C1075.1 438.772 1090.99 454.825 1091 474.348V616.653C1091 636.283 1075.06 652.224 1055.42 652.224H958.429C948.348 691.148 932.866 727.853 912.868 761.519L985.233 833.884C999.117 847.769 999.056 870.363 985.233 884.196L884.199 985.235C870.286 999.138 847.791 999.143 833.883 985.235L761.522 912.873C727.859 932.876 691.148 948.35 652.228 958.429V1055.42C652.228 1075.1 636.164 1091 616.652 1091H474.348C456.416 1091 441.565 1077.7 439.125 1060.44V804.293C471.721 817.684 507.407 825.069 544.815 825.069C698.839 825.069 823.7 699.902 823.7 545.5C823.7 391.098 698.839 265.931 544.815 265.931C390.791 265.931 265.93 391.098 265.93 545.5C265.93 689.14 265.93 832.781 265.93 976.421L257.116 985.235C243.204 999.138 220.709 999.142 206.801 985.235L105.767 884.196C91.8741 870.299 91.872 847.777 105.767 833.884L178.132 761.519C158.132 727.855 142.65 691.148 132.571 652.224H35.5771C15.9435 652.224 0 636.287 0 616.653V474.348C0.000203565 454.704 16.014 438.772 35.5771 438.772H132.568C142.649 399.847 158.133 363.143 178.131 329.477L105.765 257.112C91.8715 243.215 91.8694 220.693 105.765 206.8L206.796 105.761C220.689 91.8659 243.217 91.8659 257.112 105.761L329.474 178.123C363.137 158.12 399.847 142.646 438.767 132.567V35.5774C438.767 15.933 454.783 0 474.344 0H616.648Z" fill="#22D5A1"/>
+                <path d="M647.777 544.818C647.777 601.683 601.679 647.781 544.815 647.781C487.950 647.781 441.852 601.683 441.852 544.818C441.852 487.953 487.950 441.855 544.815 441.855C601.679 441.855 647.777 487.953 647.777 544.818Z" fill="#22D5A1"/>
+            </svg>
+        </div>
+        <h1 class="title">OpSprocket</h1>
+        <h2 class="subtitle">Tech that gets the job done</h2>
+        <p class="description">Transform your business with cutting-edge technology solutions. From websites to automation, we handle the tech so you can <span class="accent">focus on growth</span>.</p>
+    </div>
+</body>
+</html> 

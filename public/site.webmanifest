@@ -1,0 +1,23 @@
+{
+  "name": "OpSprocket - Digital Solutions That Get The Job Done",
+  "short_name": "OpSprocket",
+  "description": "Transform your business with cutting-edge technology solutions. From websites to automation, we handle the tech so you can focus on growth.",
+  "icons": [
+    {
+      "src": "/opsprocket-logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "theme_color": "#21F1A4",
+  "background_color": "#0E0E10",
+  "display": "standalone",
+  "start_url": "/",
+  "scope": "/",
+  "orientation": "portrait-primary"
+} 
