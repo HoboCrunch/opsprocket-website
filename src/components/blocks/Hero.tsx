@@ -5,12 +5,12 @@ import { motion } from 'framer-motion'
 import { Button } from '@/components/ui/Button'
 import { ArrowRight, Play, X, Settings, Zap } from 'lucide-react'
 
+const adjectives = ['faster', 'cheaper', 'smarter']
+
 const Hero: React.FC = () => {
   const [showModal, setShowModal] = useState(false)
   const [currentAdjectiveIndex, setCurrentAdjectiveIndex] = useState(0)
   
-  const adjectives = ['faster', 'cheaper', 'smarter']
-
   const [displayedAdjective, setDisplayedAdjective] = useState('')
   const [isDeleting, setIsDeleting] = useState(false)
 

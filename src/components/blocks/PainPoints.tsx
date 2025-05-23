@@ -15,7 +15,7 @@ const PainPoints: React.FC = () => {
     {
       animation: bossAnimation,
       title: 'Too Many Hats',
-      description: "You're the CEO, marketer, scheduler — and your day's already maxed out.",
+      description: "You&apos;re the CEO, marketer, scheduler — and your day&apos;s already maxed out.",
       symptoms: [
         "Repetitive tasks eat your focus",
         "No time to grow or plan", 
@@ -26,7 +26,7 @@ const PainPoints: React.FC = () => {
     {
       animation: onlineMarketingAnimation,
       title: 'Invisible Online',
-      description: "You're great at what you do — but customers can't find you.",
+      description: "You&apos;re great at what you do — but customers can&apos;t find you.",
       symptoms: [
         "Website traffic is a trickle",
         "Competitors rank higher on Google",
@@ -49,7 +49,7 @@ const PainPoints: React.FC = () => {
     {
       animation: busyAnimation,
       title: 'Outpaced by Competitors',
-      description: "Others are winning with tech. You're not sure where to start — or who to trust.",
+      description: "Others are winning with tech. You&apos;re not sure where to start — or who to trust.",
       symptoms: [
         "Competitors seem to move faster",
         "Tech solutions feel overwhelming",
@@ -139,10 +139,10 @@ const PainPoints: React.FC = () => {
           transition={{ duration: 0.8 }}
         >
           <h2 className="text-4xl md:text-5xl font-bold text-white">
-            What's Slowing You Down?
+            What&apos;s Slowing You Down?
           </h2>
           <p className="mt-2 text-base md:text-lg text-gray-400 max-w-xl mx-auto mb-16">
-            If any of these feel familiar, you're not alone — and you're in the right place.
+            If any of these feel familiar, you&apos;re not alone — and you&apos;re in the right place.
           </p>
         </motion.div>
 

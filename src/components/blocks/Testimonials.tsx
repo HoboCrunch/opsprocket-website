@@ -3,7 +3,7 @@
 import React from 'react'
 import { Card, CardContent } from '@/components/ui/Card'
 import { SectionHeader } from '@/components/ui/SectionHeader'
-import { Star, Quote, ArrowRight, ChevronRight } from 'lucide-react'
+import { Star, Quote, ArrowRight } from 'lucide-react'
 import { Button } from '@/components/ui/Button'
 
 const Testimonials: React.FC = () => {

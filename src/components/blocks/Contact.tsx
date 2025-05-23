@@ -6,7 +6,7 @@ import { Input } from '@/components/ui/Input'
 import { Button } from '@/components/ui/Button'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { Card, CardContent } from '@/components/ui/Card'
-import { Mail, Phone, MapPin, Send, CheckCircle, HelpCircle, CalendarDays } from 'lucide-react'
+import { Mail, Phone, MapPin, Send, CheckCircle, HelpCircle } from 'lucide-react'
 import { isValidEmail } from '@/lib/utils'
 
 interface FormData {
@@ -122,11 +122,6 @@ const Contact: React.FC = () => {
   const handleQuizClick = () => {
     // Placeholder for quiz functionality
     alert('Quiz feature coming soon! For now, please fill out the form below.')
-  }
-
-  const handleScheduleMeeting = () => {
-    // Placeholder for schedule meeting functionality
-    alert('Schedule meeting functionality coming soon!')
   }
 
   if (isSubmitted) {
